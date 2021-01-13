@@ -1,7 +1,7 @@
 # Prerequisites:
 npm
 
-# HOw to run the project
+# How to run the project
 * git clone the project
 * run npm install -g live-server
 * run npm install
