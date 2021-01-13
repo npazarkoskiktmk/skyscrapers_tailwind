@@ -1,7 +1,7 @@
 {
   "name": "skyscrapers_tailwind",
   "version": "1.0.0",
-  "description": "",
+  "description": "In order to start the project you must do the folowing steps:",
   "main": "tailwind.config.js",
   "dependencies": {},
   "devDependencies": {
