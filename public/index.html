@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-   </head>
-   <body>
+      <link rel="stylesheet" href="styles.css"> </head>
+   <body class="bg-skyscrapers bg-cover">
 
-      <div class= "bg-gray-700">
-         <img src="assets/logo.png" alt="Logo" class="img">
+      <div class= "bg-divgray flex items-center">
+         <img src="assets/logo.png" alt="Logo" class="pl-10">
          <span>
          <a href="index.html">Home</a>
          <a href="about.html">About</a>
@@ -23,13 +22,16 @@
          <input id= "button" type="submit" value="Sign In" />
       </form>
 
-      <div class="footer">
-         <span id="navigation">
+
+
+
+      <div class= "bg-divgray absolute inset-x-0 bottom-0">
+         <span class="flex">
          <a href="index.html">Home</a>
          <a href="about.html">About</a>
          <a href="sign_in.html">Sign In</a>
          </span>
-         <span class="bg-gray-700">
+         <span class="flex ">
          New Amsterdam Street #200 <br>
          New York City, NY, USA <br>
          00 1 222 333 444 555 <br>
@@ -37,7 +39,7 @@
          build@skyscraper.com <br>
          Info@skyscraper.com
          </span>
-         <span id="bottom_span">
+         <span class="">
          2021©All Rights Reserved. New Amsterdam Skyscrapers LTD.
          </span>
       </div>
