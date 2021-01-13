@@ -4,12 +4,12 @@
       <link rel="stylesheet" href="styles.css"> </head>
    <body class="bg-skyscrapers bg-cover">
 
-      <div class= "bg-divgray flex items-center">
+      <div class= "bg-divgray grid grid-cols-3">
          <img src="assets/logo.png" alt="Logo" class="pl-10">
-         <span>
-         <a href="index.html">Home</a>
-         <a href="about.html">About</a>
-         <a href="sign_in.html">Sign In</a>
+         <span class="text-white text-4xl pl-28 pt-5 space-x-10">
+         <a href="#index.html">Home</a>
+         <a href="#about.html">About</a>
+         <a href="#sign_in.html">Sign In</a>
          </span>
       </div>
 
@@ -22,16 +22,16 @@
          <input id= "button" type="submit" value="Sign In" />
       </form>
 
+      <footer class= "bg-divgray absolute inset-x-0 bottom-0 px-10 pb-8 text-white">
+       <div class="flex justify-between mb-3 mt-6">
+         <nav class="flex-col text-white text-1.5xl space-y-5">
+         <a href="index.html" class="flex">Home</a>
+         <a href="about.html" class="flex">About</a>
+         <a href="sign_in.html" class="flex">Sign In</a>
+         </nav>
 
-
-
-      <div class= "bg-divgray absolute inset-x-0 bottom-0">
-         <span class="flex">
-         <a href="index.html">Home</a>
-         <a href="about.html">About</a>
-         <a href="sign_in.html">Sign In</a>
-         </span>
-         <span class="flex ">
+         <div class="flex flex-col justify-end">
+         <span class="object-none object-right-bottom">
          New Amsterdam Street #200 <br>
          New York City, NY, USA <br>
          00 1 222 333 444 555 <br>
@@ -39,8 +39,14 @@
          build@skyscraper.com <br>
          Info@skyscraper.com
          </span>
-         <span class="">
+
+
+         </div>
+
+       </div>
+       <span class="flex justify-center">
          2021©All Rights Reserved. New Amsterdam Skyscrapers LTD.
-         </span>
-      </div>
+      </span>
+
+      </footer>
    </body>
